@@ -1,0 +1,41 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #30f6ef;
+    border: 3px solid #070707;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px #79f0ab;
+}
+
+input[type="text"] {
+    width: 96%;
+    padding: 5px;
+    background: #f2f6f6;
+    border: 3px solid rgb(39, 199, 243) ;
+    cursor : pointer;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: right;
+}
+
+input[type="button"] {
+    width: 24%;
+    background: #d9d5d5;
+    box-shadow: 0px 1px 0px #3e4541;
+    padding: 10px;
+    font-size: 18px;
+}
+input[value="AC"] {
+    background-color: red;
+    color: white; 
+}
+input[value="="] {
+    background-color: rgb(56, 244, 137);
+    color: white; 
+}
+input[value="*"],input[value="%"],input[value="-"],input[value="+"],input[value="+"]
+ {
+    background-color: rgb(59, 98, 225);
+    color: white;
+}
